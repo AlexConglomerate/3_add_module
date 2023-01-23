@@ -1,6 +1,6 @@
 // чтобы это работало, нужно в файле "package.json" добавить "type": "module",
 import {fileURLToPath} from 'url'
-import path from 'path.js'
+import path from './refs/path'
 import {myNumber} from "./test.js";
 
 
